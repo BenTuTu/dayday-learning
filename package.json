@@ -1,0 +1,38 @@
+{
+  "name": "tauri-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "yarn tauri dev",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tauri": "tauri",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/roboto": "^4.5.0",
+    "@material-ui/core": "^4.12.3",
+    "@tauri-apps/api": "^1.0.0-beta.8",
+    "lodash": "^4.17.21",
+    "monaco-editor": "0.27.0",
+    "npm": "^7.21.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "split.js": "^1.6.4",
+    "typescript": "^4.3.5",
+    "vite": "^2.5.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta.10",
+    "@types/lodash": "^4.14.172",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "sass": "^1.38.2"
+  },
+  "licenses": []
+}

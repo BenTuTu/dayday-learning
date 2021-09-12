@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="#" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tauri App</title>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <main id="root">gogogogoogogo!!!!!!!!!!</main>
+  <!-- Append the `?module` param to load the module version of `web-vitals` -->
+  <script type="module">
+    import {getCLS, getFID, getLCP, getFCP, getTTFB} from 'https://unpkg.com/web-vitals?module';
+
+    getCLS(console.log); // 页面最大计算偏移
+    getFID(console.log); // 第一次可交互时长
+    getLCP(console.log); // 最大内容加载时长
+    getFCP(console.log); // 开始内容加载时长
+    getTTFB(console.log); // 接受第一个字节时间
+
+  </script>
+  <script type="module">
+    import "./src-render/index.ts"
+  </script>
+  <script type="module">
+    import "./src-render/app.tsx"
+  </script>
+</body>
+</html>
